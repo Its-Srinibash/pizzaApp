@@ -1,0 +1,128 @@
+.about {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutTop {
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .aboutBottom p {
+    width: 1200px;
+  }
+  
+  .about .aboutBottom h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
+  @media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px width */
+    .about {
+      /* Add your desired styles for smaller screens here */
+   
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    
+    .aboutTop {
+      /* Add your desired styles for smaller screens here */
+      height: 90%;
+   
+    }
+    
+    .aboutBottom {
+      /* Add your desired styles for smaller screens here */
+      height: 40%;
+      margin-top: 30px;
+    }
+    
+    .aboutBottom p {
+      /* Add your desired styles for smaller screens here */
+      width: 90%;
+    }
+    
+    .aboutBottom h3 {
+      /* Add your desired styles for smaller screens here */
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for screens between 769px and 1024px width */
+    .about {
+      /* Add your desired styles for medium-sized screens here */
+      height: 80vh;
+    }
+    
+    .aboutTop {
+      /* Add your desired styles for medium-sized screens here */
+      height: 50%;
+    }
+    
+    .aboutBottom {
+      /* Add your desired styles for medium-sized screens here */
+      height: 50%;
+      margin-top: 40px;
+    }
+    
+    .aboutBottom p {
+      /* Add your desired styles for medium-sized screens here */
+      width: 80%;
+    }
+    
+    .aboutBottom h3 {
+      /* Add your desired styles for medium-sized screens here */
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 1100px) {
+    /* Styles for screens larger than 1024px width */
+    .about {
+     
+      height: 90vh;
+    }
+    
+    .aboutTop {
+    
+      height: 45%;
+    }
+    
+    .aboutBottom {
+      
+      height: 55%;
+      margin-top: 50px;
+    }
+    
+    .aboutBottom p {
+     
+      width: 1200px;
+    }
+    
+    .aboutBottom h3 {
+     
+      font-size: 36px;
+    }
+  }
+  
