@@ -1,3 +1,20 @@
+
+**HOME**
+![Home](./show/page1.png)
+**MENU**
+![Menu](./show/page2.png)
+** ABOUT**
+![About](./show/page3.png)
+**CONTACT**
+![Contact](./show/page4.png)
+
+**Used Skills are:
+1)HTML
+2)CSS
+3)JavaScript
+4)React JS
+others Material UI**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
